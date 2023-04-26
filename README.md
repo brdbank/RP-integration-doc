@@ -124,7 +124,7 @@ POST
 
 The request requires a JSON object in the body with the following format:
 
-Filters (registrationNumber, beneficiaryAccountNumber, names, paymentPeriod)
+Filters (period, academicYear, yearOfStudy)
 
 
 ```json
@@ -133,7 +133,7 @@ Filters (registrationNumber, beneficiaryAccountNumber, names, paymentPeriod)
 }
 ```
 
-The filster avavailable are : registrationNumber, beneficiaryAccountNumber, names, paymentPeriod
+The filster avavailable are : period, academicYear, yearOfStudy
 
 ## Headers
 
